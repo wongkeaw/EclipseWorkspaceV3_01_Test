@@ -1,0 +1,42 @@
+package com.ongdev.spring.controller;
+
+import java.util.Enumeration;
+import java.util.Iterator;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ongdev.spring.domain.Message;
+
+@RestController
+public class WelcomeRestController {
+
+    @RequestMapping("/rest")
+    public String welcome() {//Welcome page, non-rest
+    	System.out.println("welcome");
+        return "Welcome to RestTemplate Example.";
+    }
+ 
+    @RequestMapping("/rest/hello/{player}")
+    public Message message(@PathVariable String player) {//REST Endpoint.
+    	System.out.println("message");
+        Message msg = new Message(player, "Hello " + player);
+        
+        return msg;
+    }
+    @RequestMapping("/rest/map")
+    public Map<String, Object> map(HttpServletRequest rq , HttpServletResponse rs ) {
+    	System.out.println("welcome");
+    	Set<String> list = rq.getSession().getAttributeNames() ;
+    	 for (Enumeration<String> e = list.elements(); e.hasMoreElements();)
+    	       System.out.println(e.nextElement());
+    	 
+    	Map<String, Object> modelMap = new WelcomeController().getModelMap() ;
+        return modelMap ;
+    }
+}

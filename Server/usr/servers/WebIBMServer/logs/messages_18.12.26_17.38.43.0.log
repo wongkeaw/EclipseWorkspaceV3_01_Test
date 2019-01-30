@@ -1,0 +1,65 @@
+********************************************************************************
+product = WebSphere Application Server 18.0.0.4 (wlp-1.0.23.cl180420181121-0300)
+wlp.install.dir = C:/Users/ongOngongPC/EclipseWorkspaceV3_01_Test/Server/
+java.home = C:\Program Files\Java\jre-10.0.2
+java.version = 10.0.2
+java.runtime = Java(TM) SE Runtime Environment (10.0.2+13)
+os = Windows 10 (10.0; amd64) (en_US)
+process = 25132@OngOngOngPC
+********************************************************************************
+[12/26/18, 17:18:06:372 ICT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server WebIBMServer has been launched.
+[12/26/18, 17:18:06:414 ICT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/18.0.0.4/lafiles/en.html
+[12/26/18, 17:18:09:780 ICT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 4.164 seconds
+[12/26/18, 17:18:09:982 ICT] 0000001d com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[12/26/18, 17:18:16:564 ICT] 00000016 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[12/26/18, 17:18:17:314 ICT] 00000016 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[12/26/18, 17:18:17:338 ICT] 0000001e com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9080.
+[12/26/18, 17:18:17:832 ICT] 00000018 com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0820A: The default keystore has been created using the 'keystore_password' environment variable.
+[12/26/18, 17:18:17:841 ICT] 00000018 com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0802I: Creating the SSL certificate. This may take a few seconds.
+[12/26/18, 17:18:17:863 ICT] 00000023 com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[12/26/18, 17:18:17:903 ICT] 00000016 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[12/26/18, 17:18:18:338 ICT] 00000016 com.ibm.ws.security.jaspi.AuthConfigFactoryWrapper           I CWWKS1655I: The default Java Authentication SPI for Containers (JASPIC) AuthConfigFactory class com.ibm.ws.security.jaspi.ProviderRegistry is being used because the Java security property authconfigprovider.factory is not set. 
+[12/26/18, 17:18:19:840 ICT] 00000023 com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   A CWWKS4104A: LTPA keys created in 1.977 seconds. LTPA key file: C:/Users/ongOngongPC/EclipseWorkspaceV3_01_Test/Server/usr/servers/WebIBMServer/resources/security/ltpa.keys
+[12/26/18, 17:18:19:850 ICT] 00000023 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 1.995 seconds.
+[12/26/18, 17:18:20:427 ICT] 00000016 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "java.lang.ClassNotFoundException: jdk.internal.agent.Agent com.ibm.ws.jmx.connector.local.LocalConnectorActivator$LocalConnectorHelper$1 97" at ffdc_18.12.26_17.18.20.0.log
+[12/26/18, 17:18:20:439 ICT] 00000016 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "java.lang.ClassNotFoundException: jdk.internal.agent.Agent com.ibm.ws.jmx.connector.local.LocalConnectorActivator$LocalConnectorHelper$1 localConnectorInit" at ffdc_18.12.26_17.18.20.1.log
+[12/26/18, 17:18:20:732 ICT] 00000016 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[12/26/18, 17:18:20:736 ICT] 00000016 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[12/26/18, 17:18:20:739 ICT] 00000016 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[12/26/18, 17:18:21:230 ICT] 00000021 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application TestProject.
+[12/26/18, 17:18:21:623 ICT] 00000018 com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0803A: SSL certificate created in 3.782 seconds. SSL key file: C:/Users/ongOngongPC/EclipseWorkspaceV3_01_Test/Server/usr/servers/WebIBMServer/resources/security/key.jks
+[12/26/18, 17:18:21:711 ICT] 00000027 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9443.
+[12/26/18, 17:18:21:855 ICT] 00000021 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[12/26/18, 17:18:21:955 ICT] 00000021 org.jboss.weld.Version                                       I WELD-000900: 3.0.5 (Final)
+[12/26/18, 17:18:22:280 ICT] 00000021 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: TestProject.
+[12/26/18, 17:18:22:284 ICT] 00000021 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module TestProject has been bound to default_host.
+[12/26/18, 17:18:22:286 ICT] 00000021 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/TestProject/
+[12/26/18, 17:18:22:292 ICT] 00000021 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application TestProject started in 1.061 seconds.
+[12/26/18, 17:18:22:381 ICT] 0000002e com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/TestProject
+[12/26/18, 17:18:22:437 ICT] 0000002e com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[12/26/18, 17:18:22:550 ICT] 0000001d com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [jsp-2.3, jsonb-1.0, ejbLite-3.2, managedBeans-1.0, beanValidation-2.0, servlet-4.0, jsf-2.3, ssl-1.0, jndi-1.0, cdi-2.0, jdbc-4.2, localConnector-1.0, appSecurity-3.0, jsonp-1.1, appSecurity-2.0, jaxrsClient-2.1, el-3.0, jaxrs-2.1, jpaContainer-2.2, webProfile-8.0, jaspic-1.1, distributedMap-1.0, jpa-2.2, websocket-1.1].
+[12/26/18, 17:18:22:551 ICT] 0000001d com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 12.785 seconds.
+[12/26/18, 17:18:22:553 ICT] 0000001d com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server WebIBMServer is ready to run a smarter planet.
+[12/26/18, 17:18:22:589 ICT] 0000002e org.hibernate.validator.internal.util.Version                I HV000001: Hibernate Validator 6.0.13.Final
+[12/26/18, 17:18:22:863 ICT] 0000001e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\ongOngongPC\EclipseWorkspaceV3_01_Test\Server\usr\servers\WebIBMServer\logs\state\plugin-cfg.xml.
+[12/26/18, 17:18:22:972 ICT] 0000002e com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[12/26/18, 17:18:22:991 ICT] 0000002e org.apache.myfaces.ee.MyFacesContainerInitializer            I Using org.apache.myfaces.ee.MyFacesContainerInitializer
+[12/26/18, 17:25:49:208 ICT] 0000002b com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Starting server configuration update.
+[12/26/18, 17:25:49:241 ICT] 0000002b com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0017I: The server configuration was successfully updated in 0.034 seconds.
+[12/26/18, 17:25:49:271 ICT] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/TestProject/
+[12/26/18, 17:25:49:290 ICT] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application TestProject has stopped successfully.
+[12/26/18, 17:25:49:320 ICT] 00000020 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at C:\Users\ongOngongPC\EclipseWorkspaceV3_01_Test\Server\usr\servers\WebIBMServer\logs\state\plugin-cfg.xml.
+[12/26/18, 17:28:53:425 ICT] 00000029 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Starting server configuration update.
+[12/26/18, 17:28:53:515 ICT] 00000029 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0017I: The server configuration was successfully updated in 0.089 seconds.
+[12/26/18, 17:28:53:522 ICT] 0000003c com.ibm.ws.app.manager.AppMessageHelper                      W CWWKZ0014W: The application TestProject could not be started as it could not be found at location TestProject-0.0.1-SNAPSHOT.war.
+[12/26/18, 17:30:55:044 ICT] 00000025 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Starting server configuration update.
+[12/26/18, 17:30:55:085 ICT] 00000025 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0017I: The server configuration was successfully updated in 0.041 seconds.
+[12/26/18, 17:30:55:091 ICT] 0000001d com.ibm.ws.app.manager.AppMessageHelper                      W CWWKZ0014W: The application WEBPro01 could not be started as it could not be found at location WEBPro01.war.
+[12/26/18, 17:34:46:843 ICT] 00000014 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Wednesday, December 26, 2018 at 5:34 PM. The server WebIBMServer is shutting down.
+[12/26/18, 17:34:46:846 ICT] 00000042 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[12/26/18, 17:34:46:853 ICT] 00000025 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint-ssl has stopped listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9443.
+[12/26/18, 17:34:46:854 ICT] 00000025 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host 127.0.0.1  (IPv4: 127.0.0.1) port 9080.
+[12/26/18, 17:34:47:856 ICT] 00000042 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[12/26/18, 17:34:48:696 ICT] 00000042 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[12/26/18, 17:34:48:887 ICT] 00000042 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[12/26/18, 17:35:02:028 ICT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server WebIBMServer stopped after 16 minutes, 56.417 seconds.

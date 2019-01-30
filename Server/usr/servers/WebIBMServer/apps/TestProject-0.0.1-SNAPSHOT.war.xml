@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="C:\Users\ongOngongPC\EclipseWorkspaceV3_01_Test\TestProject\target\m2e-wtp\web-resources" targetInArchive="/"/>
+    <dir sourceOnDisk="C:\Users\ongOngongPC\EclipseWorkspaceV3_01_Test\TestProject\WebContent" targetInArchive="/"/>
+    <dir sourceOnDisk="C:\Users\ongOngongPC\EclipseWorkspaceV3_01_Test\TestProject\target\classes" targetInArchive="/WEB-INF/classes"/>
+</archive>

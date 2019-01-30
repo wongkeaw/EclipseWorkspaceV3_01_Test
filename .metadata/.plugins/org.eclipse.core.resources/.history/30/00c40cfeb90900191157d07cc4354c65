@@ -1,0 +1,5 @@
+package com.ongdev.spring.domain;
+
+public class Message {
+
+}

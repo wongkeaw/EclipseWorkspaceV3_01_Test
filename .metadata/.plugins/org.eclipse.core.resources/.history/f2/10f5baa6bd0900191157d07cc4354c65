@@ -1,0 +1,19 @@
+package com.ongdev.spring.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ongdev.spring.domain.Message;
+
+@Controller
+public class WelcomeRestController {
+	 
+	    @RequestMapping("/hello/{player}")
+	    public Message message(@PathVariable String player) {//REST Endpoint.
+	    	System.out.println("restController");
+	        Message msg = new Message(player, "Hello " + player);
+	        return msg;
+	    }
+}

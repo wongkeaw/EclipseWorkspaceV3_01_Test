@@ -1,0 +1,5 @@
+package com.ongdev.spring.controller;
+
+public class WelcomeRestController {
+
+}
